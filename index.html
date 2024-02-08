@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="box-border ">
 
-  <main>
+    <main class="container bg-neutral-950 h-screen w-full flex justify-center">
 
-    <div class="container"> <!-- inner container -->
-      
-      <div class="img-container">
-        <img src="img/icon-star.svg" alt="">
+      <div class="inner_container bg-gray-800 text-white max-h-96 max-w-96 grid ">
+        <!-- inner container -->
+
+        <div class="img-container " >
+          <img src="img/icon-star.svg" alt="" />
+        </div>
+
+        <h1 class="">How did we do?</h1>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+
+        <button class="submit-button">SUBMIT</button>
       </div>
-       
-      <h1>
-        How did we do?
-      </h1>
-       
-      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    </main>
 
-    </div>
-
-
-  </main>
-  
-
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
